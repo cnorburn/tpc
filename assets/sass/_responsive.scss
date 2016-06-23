@@ -1,0 +1,28 @@
+$responsiveBreakpointFull : 1140px;
+$responsiveBreakpointMedium : 900px;
+$responsiveBreakpointMediumSmall : 800px;
+$responsiveBreakpointSmall : 590px;
+$responsiveBreakpointExtraSmall : 480px;
+$responsiveBreakpointiPod : 320px;
+
+@mixin responsive-max() {
+  @media only screen and (min-width: $responsiveBreakpointFull + 1) { @content; }
+}
+@mixin responsive-full() {
+  @media only screen and (max-width: $responsiveBreakpointFull) { @content; }
+}
+@mixin responsive-medium() {
+  @media only screen and (max-width: $responsiveBreakpointMedium) { @content; }
+}
+@mixin responsive-medium-small() {
+  @media only screen and (max-width: $responsiveBreakpointMediumSmall) { @content; }
+}
+@mixin responsive-small() {
+  @media only screen and (max-width: $responsiveBreakpointSmall) { @content; }
+}
+@mixin responsive-min() {
+  @media only screen and (max-width: $responsiveBreakpointExtraSmall) { @content; }
+}
+@mixin responsive-iPod() {
+  @media only screen and (max-width: $responsiveBreakpointiPod) { @content; }
+}

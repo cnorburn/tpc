@@ -1,0 +1,252 @@
+body.ie8{
+  .home{
+    margin: 0 50px 0 50px;
+    width: auto;
+
+    .panel-grid-cell{
+      width:33%;
+    }
+  }
+}
+
+.home{
+  margin: 0 auto;
+  width: 940px;
+
+  @include responsive-full() {
+    margin: 0 50px 0 50px;
+    width: auto;
+  }
+  @include responsive-small() {
+    margin: 0 0 0 10px;
+    width: auto;
+    article{
+      margin-top: -60px
+    }
+  }
+  @include responsive-medium-small() {
+    margin: 0 0 0 10px;
+    width: auto;
+    article{
+      margin-top: -60px
+    }
+  }
+  @include responsive-medium() {
+    article{
+      margin-top: -60px
+    }
+  }
+  @include responsive-min() {
+    article{
+      margin-top: -60px
+    }
+  }
+
+  .ninja-forms-cont{
+    width:auto;
+  }
+
+  form{
+    line-height: 20px;
+    font-size: 13px;
+    p{
+      width:100% !important;
+    }
+    input{
+      width:80%;
+    }
+    select{
+      width:83%;
+    }
+
+    @include responsive-medium() {
+      input{
+        width:322px;
+      }
+      select{
+        width:328px;
+      }
+    }
+    @include responsive-small() {
+      input{
+        width:90%;
+      }
+      select{
+        width:92%;
+      }
+    }
+
+    &.ninja-forms-form{
+      label{
+        width:100% !important;
+      }
+      input,select{
+        float: left;
+        width:90% !important;
+      }
+    }
+
+  }
+
+  h2.entry-title{
+    visibility: hidden;
+    display: none;
+  }
+
+  h3{
+    font-size: 20px !important;
+    line-height: 26px;
+  }
+
+  .panel-grid:nth-child(1){
+    border: none;
+    margin-bottom: 10px !important;
+  }
+
+  .panel-grid{
+    border-top: 1px dotted #CECECE;
+    padding: 0 10px 0 0;
+
+    img{
+      overflow: hidden;
+      border-radius: 9px;
+      width:300px !important;
+      max-width: inherit !important;
+    }
+
+    .sixty-thirty img{
+      width: 100% !important;
+    }
+
+    .panel-grid-cell{
+
+      .widget {
+        line-height: 20px;
+      }
+
+      img{
+        display: block;
+      }
+
+      .choose-country img{
+        width:25px !important;
+      }
+      .homepage-social-media img{
+        max-width: inherit  !important;
+        width: 32px !important;
+      }
+      .full-width{
+        p{
+          width:100% !important;
+        }
+      }
+
+      @include responsive-max() {
+      }
+      @include responsive-full() {
+
+        img{
+          width:100% !important;
+          height:auto;
+        }
+      }
+      @include responsive-medium() {
+        width:100% !important;
+
+        h3{
+          float: left;
+          position: relative;
+          left: 1px;
+          width: 100%;;
+        }
+        .homepage-social-media{
+          display: none;
+          visibility: hidden;
+        }
+        .textwidget{
+          p:nth-child(1){
+            float: left;
+            width: 40%;
+            margin-right: 30px;
+          }
+          p:nth-child(2){
+            float: right;
+            width:50%;
+            height:100%;
+            margin-top: 15px;
+          }
+          p:nth-child(3){
+            float: none;
+            width:40%;
+            height:100%;
+          }
+          .choose-country{
+            display: none;
+            visibility: hidden;
+          }
+          .choose-country{
+            display: none;
+            visibility: hidden;
+          }
+          img{
+            width:100%;
+          }
+          p.form{
+            width:100%;
+            padding: 0 0 0 10px;
+          }
+        }
+      }
+      @include responsive-small() {
+        width:100%;
+        h3 {
+          float: none;
+        }
+       .textwidget{
+          p:nth-child(1){
+            float: none;
+            width: 100%;
+          }
+          p:nth-child(2){
+            float: none;
+            width:100%;
+            height:100%;
+          }
+           p:nth-child(3){
+             float: none;
+             width:100%;
+             height:100%;
+           }
+        }
+
+      }
+      @include responsive-min() {
+        width:100%;
+        h3 {
+          float: none;
+        }
+        .textwidget{
+          p:nth-child(1){
+            float: none;
+            width: 100%;
+          }
+          p:nth-child(2){
+            float: none;
+            width:100%;
+            height:100%;
+          }
+          p:nth-child(3){
+            float: none;
+            width:100%;
+            height:100%;
+          }
+        }
+      }
+
+    }
+
+
+  }
+
+
+}

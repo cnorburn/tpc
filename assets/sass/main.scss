@@ -1,0 +1,29 @@
+//@import "compass";
+
+$backgroundColour: #f6f6f6;
+$backgroundColourContent: #fff;
+$fontRedColour: #c42e2f;
+$fontLightRedColour: #e7abac;
+$fontPopularFirstH4: #474747;
+$fontPopularH4: #787878;
+$fontLatestH2: #767676;
+$fontColorLightGrey: #767676;
+$fontDateColor: #909090;
+$fontColor: #333333;
+$fontColorVisited: #767676;
+$fontHeaderColour: #ed1c24;
+$fontPostMeta: #696969;
+
+@import '_responsive';
+@import '_utils';
+@import '_social';
+@import '_style';
+@import '_fonts';
+@import '_sprites';
+@import '_menus';
+@import '_forms';
+@import '_homepage';
+@import '_footer';
+@import '_comments';
+@import '_dynamic-posts';
+

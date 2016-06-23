@@ -1,0 +1,65 @@
+.filter-wrapper{
+  width: 1100px;
+  select{
+    display: inline-block;
+    margin: 0 10px 20px;
+    font-size: 20px;
+    width: 180px;
+  }
+}
+
+#page .container h1{
+  margin:0 !important;
+}
+nav.site-navigation{
+  height:160px;
+}
+nav.site-navigation header{
+  margin:10px auto;
+}
+
+ul.dynamic-posts{
+
+  width:800px;
+
+  li {
+    list-style: none;
+    list-style-type: none;
+
+    position: relative;
+    clear: both;
+    height: 220px;
+
+    a{
+      .image{
+        float: left;
+        img{
+          width: 245px;
+          height: 171px;
+        }
+      }
+      .text{
+
+        float: right;
+        width: 68%;
+
+        h1{
+            left: 30px;
+            position: relative;
+            margin:0 !important;
+        }
+        p{
+          height:auto;
+          position: relative;
+          left:30px;
+        }
+
+
+      }
+
+    }
+
+
+  }
+
+}

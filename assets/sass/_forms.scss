@@ -1,0 +1,217 @@
+.text-wrap input, .textarea-wrap.label-above textarea, .textarea-wrap.label-below textarea, .textarea-wrap.label-inside textarea, .list-dropdown-wrap.label-above select, .list-dropdown-wrap.label-below select{
+  width:300px !important;
+}
+
+#page .container div.ninja-forms-cont div.ninja-forms-all-fields-wrap h3.ninja-forms-field:nth-of-type(1){
+  margin: 10px 0 0 10px;
+  padding-top:0;
+}
+#page .container div.ninja-forms-cont div.ninja-forms-all-fields-wrap h3.ninja-forms-field{
+  margin: 0 0 0 10px;
+  padding: 50px 20px 0 0;
+  text-align: justify;
+}
+.text-wrap.label-above label, .textarea-wrap.label-above label {
+  display: block;
+  width: 40% !important;
+  @include responsive-small() {
+    width:100% !important;
+  }
+  @include responsive-iPod() {
+    width:100% !important;
+  }
+
+
+}
+
+.ninja-forms-cont{
+
+  border-radius: 9px;
+
+  width: 590px;
+  background-color: #E2E2E2;
+
+  @include responsive-small() {
+    width:100%;
+  }
+
+  hr{
+    margin: 0 10px;
+  }
+
+  ul{
+    float: none;
+    padding-top: 30px;
+  }
+
+  label{
+    color:#00245d;
+    font-size: 15px;
+    line-height: 1.5em;
+    float: left;
+    @include responsive-small() {
+      float:none;
+    }
+    @include responsive-iPod() {
+      float:none;
+    }
+  }
+
+  input.ninja-forms-field{
+    float:right;
+    margin:0 30px 0 0;
+    height: 30px;
+    font-size: 15px;
+
+    @include responsive-small() {
+      float:none;
+      margin:0 !important;
+    }
+    @include responsive-iPod() {
+      float:none;
+      margin:0 !important;
+    }
+
+  }
+
+  select.ninja-forms-field{
+    float:right;
+    height: 22px;
+    width: 300px;
+    margin: 0 30px 0 0;
+    font-size: 15px;
+
+    @include responsive-small() {
+      float:none;
+      margin:0;
+    }
+    @include responsive-iPod() {
+      float:none;
+      margin:0;
+    }
+
+  }
+
+  div.textarea-wrap.field-wrap{
+    margin-bottom:10px;
+  }
+
+  textarea.ninja-forms-field{
+    float:right;
+    height: 75px;
+    width: 300px;
+    margin: 0 30px 0 0;
+    font-size: 15px;
+    @include responsive-small() {
+      float:none;
+      margin:0;
+    }
+    @include responsive-iPod() {
+      float:none;
+      margin:0;
+    }
+  }
+
+  div.ninja-forms-response-msg{
+    padding: 10px 0 0 10px;
+    line-height: 1.8em;
+  }
+
+  div.ninja-forms-field-error{
+    color:darkred;
+  }
+
+  div.ninja-forms-required-items{
+    padding: 10px 0 0 10px;
+  }
+
+  p.ninja-forms-req-symbol{
+    color: #878787;
+    font-size: 12px;
+  }
+
+  div.field-wrap{
+    margin:20px 0 0 10px;
+  }
+
+  div.list-radio-wrap, div.list-checkbox-wrap{
+    .ninja-forms-field{
+      height: 21px;
+    }
+    ul{
+      list-style-type: none;
+      padding-top: 30px;
+      float:none;
+      li{
+        height: 10px;
+        padding: 0;
+        width: 100%;
+        margin: 5px 0 0 10px;
+        float: none !important;
+        label{
+          color: #878787;
+          font-size: 15px
+        }
+        input{
+          width:35px;
+          float: left;
+        }
+      }
+    }
+  }
+
+  div.ninja-forms-field p, p.ninja-forms-field{
+    color: #878787;
+    font-size: 15px;
+    margin: 30px 10px 0 10px;
+    text-align: justify;
+    &.field-title{
+      color:#00245d;
+      font-size: 15px;
+    }
+  }
+
+  div.submit-wrap{
+    margin: 0;
+    padding-bottom: 50px;
+    input{
+      float: left;
+      margin: 30px 0 0 10px !important;
+      width: 120px;
+      height: 30px;
+
+      border-top: 1px solid #FFF;
+      border-right: 1px solid #C9CDCC;
+      border-bottom: 1px solid #C9CDCC;
+      border-left: 1px solid #FFF;
+      color: #666;
+      background-color: #FFF;
+      background: -webkit-gradient( linear, left bottom, left top, color-stop(0.2, rgb(232,233,227)), color-stop(0.6, rgb(250,251,248)) );
+    }
+  }
+
+
+  div.checkbox-wrap{
+    input{
+//      margin: 0 30px 0 0;
+      float: none;
+      height: 12px;
+    }
+    label{
+      float: none;color: #878787;
+      font-size: 15px;
+    }
+  }
+
+}
+
+body.us .col-right .ninja-forms-cont{
+  width:350px;
+  .ninja-forms-form-wrap{padding-top: 5px;}
+  .ninja-forms-required-items{padding-left: 20px;}
+  h2{padding:20px;}
+  label{margin: 10px;width:200px !important;}
+  input[type="submit"]{
+    margin:20px;
+  }
+}

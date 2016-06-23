@@ -1,0 +1,231 @@
+.comments-area {
+
+  font-family: 'Muli', Trebuchet, Verdana, sans-serif !important;
+  background-color: #f1f1f1;
+  border-top: 1px solid #eaeaea;
+  border-top: 1px solid rgba(51, 51, 51, 0.1);
+  padding: 40px 40px 10px 40px;
+  margin-top: 50px;
+
+
+
+  .comment-body{
+    border-top:1px solid #c7c7c7;
+    padding-top: 25px;
+  }
+
+  h3.comment-reply-title {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    line-height: 28px !important;
+    color: rgb(51, 51, 51) !important;
+  }
+
+  h2.comments-title {
+    color: rgb(51, 51, 51) !important;
+    font-weight: bold !important;
+  }
+
+  .comment-notes {
+    color: rgba(51, 51, 51, 0.701961);
+    display: inline;
+    font-family: 'Muli', Trebuchet, Verdana, sans-serif;;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    height: auto;
+    line-height: 21px;
+  }
+
+  .comment-form label {
+    color: #707070;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-family: 'Muli', Trebuchet, Verdana, sans-serif;
+  }
+
+  .comment-form input,
+  .comment-form textarea {
+    width: 100%;
+    font-size: 19px;
+    padding: 10px 0;
+    background-color: rgb(247, 247, 247);
+  }
+
+  .comment-form textarea {
+    max-width: 100%;
+    line-height: 31px;
+    color: rgba(51, 51, 51, 0.701961);
+    border: 1px rgba(51, 51, 51, 0.0980392) solid;
+  }
+
+  .comment-form input[type="text"],
+  .comment-form input[type="email"],
+  .comment-form input[type="url"],
+  .comment-form input[type="submit"] {
+    width: 100%;
+    border: 1px rgba(51, 51, 51, 0.0980392) solid;
+  }
+
+  .required {
+    color: #c0392b;
+  }
+
+  .form-allowed-tags {
+    color: #707070;
+    color: rgba(51, 51, 51, 0.7);
+    font-family: 'Muli', Trebuchet, Verdana, sans-serif;;
+    font-size: 13px;
+    line-height: 19.5px;
+    margin-bottom: 26px;
+  }
+  input[type="submit"] {
+    -webkit-appearance: button;
+    background-color: #333;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Muli', Trebuchet, Verdana, sans-serif;;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+
+  .comment-content ul,
+  .comment-content ol {
+    margin: 0 0 1.6em 1.3333em;
+  }
+
+  .comment-content li > ul,
+  .comment-content li > ol {
+    margin-bottom: 0;
+  }
+
+  .comment-content > :last-child {
+    margin-bottom: 0;
+  }
+
+  .comment-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li{
+      padding-top: 15px;
+    }
+
+    .reply {
+      font-size: 12px;
+    }
+
+    .reply a {
+      border: 1px solid #eaeaea;
+      border: 1px solid rgba(51, 51, 51, 0.1);
+      color: #707070 !important;
+      display: inline-block;
+      font-family: 'Muli', Trebuchet, Verdana, sans-serif;
+      font-weight: 700;
+      line-height: 1;
+      margin-top: 2em;
+      padding: 0.4167em 0.8333em;
+      text-transform: uppercase;
+    }
+
+    .reply a:hover,
+    .reply a:focus {
+      border-color: #333 !important;
+      color: #333 !important;
+      outline: 0;
+    }
+
+  }
+
+  .comment-author .avatar {
+    height: 24px !important;
+    width: 24px !important;
+    margin-right: 0.8em;
+    top: 0;
+    border-radius: 50% !important;
+    float: left;
+  }
+
+
+  .says {
+    visibility: hidden;
+    display: none;
+  }
+
+  cite {
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .comment-author {
+    color: #707070 !important;
+  }
+
+  .comment-meta a{
+    color: #707070 !important;
+    font-size: 12px;
+  }
+
+  .comment-meta a:hover{
+    border-bottom: 1px solid #333;
+  }
+
+  .comment-meta a:hover,
+  .comment-meta a:focus{
+    color: #333 !important;
+  }
+
+  .comment-respond{
+    border-top:1px solid #c7c7c7;
+    margin: 25px 0 0 0;
+  }
+
+  .logged-in-as{
+    font-size:12px;
+  }
+
+}
+
+nav.navigation{
+
+  margin:20px 0 20px 0;
+  background-color: #f1f1f1;
+  padding: 0 40px 40px 40px;
+
+  h2{
+    display: none;
+    visibility: hidden;
+  }
+  .screen-reader-text{
+    display: none;
+    visibility: hidden;
+  }
+  .meta-nav{
+    display: block;
+    color: rgba(51, 51, 51, 0.7);
+    font-family: 'Muli', Trebuchet, Verdana, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .post-title{
+    font-family: 'Muli', Trebuchet, Verdana, sans-serif;
+    font-size: 18px;
+  }
+
+}
+
+
+
+
+
+
+
